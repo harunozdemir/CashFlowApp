@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E1BB530A4E7595D1D46D20D /* Pods_CashFlowApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AAB6E37ED4E02F8EB6469B /* Pods_CashFlowApp.framework */; };
+		99138B252161B97D0027DB74 /* DashboardPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99138B242161B97D0027DB74 /* DashboardPageViewController.swift */; };
+		99138B272161C1960027DB74 /* DemoBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99138B262161C1960027DB74 /* DemoBaseViewController.swift */; };
+		992F00D72162BC11008583F8 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992F00D62162BC11008583F8 /* DesignableView.swift */; };
+		992F00DB2163FE1C008583F8 /* AddExpenseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992F00DA2163FE1C008583F8 /* AddExpenseTableViewController.swift */; };
+		992F00F121641600008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.06.16.png in Resources */ = {isa = PBXBuildFile; fileRef = 992F00EB216415FF008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.06.16.png */; };
+		992F00F221641600008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.05.58.png in Resources */ = {isa = PBXBuildFile; fileRef = 992F00EC216415FF008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.05.58.png */; };
+		992F00F321641600008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.06.28.png in Resources */ = {isa = PBXBuildFile; fileRef = 992F00ED216415FF008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.06.28.png */; };
+		992F00F421641600008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.05.46.png in Resources */ = {isa = PBXBuildFile; fileRef = 992F00EE216415FF008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.05.46.png */; };
+		992F00F521641600008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.05.54.png in Resources */ = {isa = PBXBuildFile; fileRef = 992F00EF216415FF008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.05.54.png */; };
+		992F00F621641600008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.06.08.png in Resources */ = {isa = PBXBuildFile; fileRef = 992F00F0216415FF008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.06.08.png */; };
+		9948003021622F2500FA97B3 /* DayAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948002F21622F2500FA97B3 /* DayAxisValueFormatter.swift */; };
+		9948003321622F7800FA97B3 /* XYMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948003221622F7800FA97B3 /* XYMarkerView.swift */; };
+		994800352162307300FA97B3 /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994800342162307300FA97B3 /* BalloonMarker.swift */; };
+		9948003721624D5300FA97B3 /* PageIncomeExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948003621624D5300FA97B3 /* PageIncomeExpenseViewController.swift */; };
+		996214E8216142E4002E70BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996214E7216142E4002E70BF /* AppDelegate.swift */; };
+		996214ED216142E4002E70BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996214EB216142E4002E70BF /* Main.storyboard */; };
+		996214EF216142E4002E70BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996214EE216142E4002E70BF /* Assets.xcassets */; };
+		996214F2216142E4002E70BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996214F0216142E4002E70BF /* LaunchScreen.storyboard */; };
+		996214FE2161448D002E70BF /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996214FD2161448D002E70BF /* ContactsViewController.swift */; };
+		99621500216144A6002E70BF /* InvoicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996214FF216144A6002E70BF /* InvoicesViewController.swift */; };
+		99621502216144BF002E70BF /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99621501216144BF002E70BF /* ExpensesViewController.swift */; };
+		9962150A21616BB4002E70BF /* PageTotalReceivablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9962150921616BB4002E70BF /* PageTotalReceivablesViewController.swift */; };
+		9962150C21616C2B002E70BF /* PageCashFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9962150B21616C2B002E70BF /* PageCashFlowViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10AAB6E37ED4E02F8EB6469B /* Pods_CashFlowApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashFlowApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B2B4A50831303AD7147A91 /* Pods-CashFlowApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashFlowApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CashFlowApp/Pods-CashFlowApp.release.xcconfig"; sourceTree = "<group>"; };
+		99138B242161B97D0027DB74 /* DashboardPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPageViewController.swift; sourceTree = "<group>"; };
+		99138B262161C1960027DB74 /* DemoBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoBaseViewController.swift; sourceTree = "<group>"; };
+		992F00D62162BC11008583F8 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		992F00DA2163FE1C008583F8 /* AddExpenseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseTableViewController.swift; sourceTree = "<group>"; };
+		992F00EB216415FF008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.06.16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.06.16.png"; sourceTree = "<group>"; };
+		992F00EC216415FF008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.05.58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.05.58.png"; sourceTree = "<group>"; };
+		992F00ED216415FF008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.06.28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.06.28.png"; sourceTree = "<group>"; };
+		992F00EE216415FF008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.05.46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.05.46.png"; sourceTree = "<group>"; };
+		992F00EF216415FF008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.05.54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.05.54.png"; sourceTree = "<group>"; };
+		992F00F0216415FF008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.06.08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.06.08.png"; sourceTree = "<group>"; };
+		9948002F21622F2500FA97B3 /* DayAxisValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayAxisValueFormatter.swift; sourceTree = "<group>"; };
+		9948003221622F7800FA97B3 /* XYMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYMarkerView.swift; sourceTree = "<group>"; };
+		994800342162307300FA97B3 /* BalloonMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
+		9948003621624D5300FA97B3 /* PageIncomeExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIncomeExpenseViewController.swift; sourceTree = "<group>"; };
+		996214E4216142E4002E70BF /* CashFlowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashFlowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		996214E7216142E4002E70BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		996214EC216142E4002E70BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		996214EE216142E4002E70BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		996214F1216142E4002E70BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		996214F3216142E4002E70BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		996214FD2161448D002E70BF /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		996214FF216144A6002E70BF /* InvoicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoicesViewController.swift; sourceTree = "<group>"; };
+		99621501216144BF002E70BF /* ExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
+		9962150921616BB4002E70BF /* PageTotalReceivablesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTotalReceivablesViewController.swift; sourceTree = "<group>"; };
+		9962150B21616C2B002E70BF /* PageCashFlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCashFlowViewController.swift; sourceTree = "<group>"; };
+		9AFC15CA22B4429641CEBDB9 /* Pods-CashFlowApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashFlowApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CashFlowApp/Pods-CashFlowApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		996214E1216142E4002E70BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1BB530A4E7595D1D46D20D /* Pods_CashFlowApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		242ADF8616CC8D4CB015E1AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AFC15CA22B4429641CEBDB9 /* Pods-CashFlowApp.debug.xcconfig */,
+				32B2B4A50831303AD7147A91 /* Pods-CashFlowApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		992F00D52162BC00008583F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				992F00D62162BC11008583F8 /* DesignableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		992F00DC2164150D008583F8 /* master */ = {
+			isa = PBXGroup;
+			children = (
+				992F00EE216415FF008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.05.46.png */,
+				992F00EF216415FF008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.05.54.png */,
+				992F00EC216415FF008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.05.58.png */,
+				992F00F0216415FF008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.06.08.png */,
+				992F00EB216415FF008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.06.16.png */,
+				992F00ED216415FF008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.06.28.png */,
+			);
+			path = master;
+			sourceTree = "<group>";
+		};
+		9948002E21622F0900FA97B3 /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				9948002F21622F2500FA97B3 /* DayAxisValueFormatter.swift */,
+			);
+			path = Formatters;
+			sourceTree = "<group>";
+		};
+		9948003121622F6100FA97B3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9948003221622F7800FA97B3 /* XYMarkerView.swift */,
+				994800342162307300FA97B3 /* BalloonMarker.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		996214DB216142E4002E70BF = {
+			isa = PBXGroup;
+			children = (
+				996214E6216142E4002E70BF /* CashFlowApp */,
+				992F00DC2164150D008583F8 /* master */,
+				996214E5216142E4002E70BF /* Products */,
+				242ADF8616CC8D4CB015E1AD /* Pods */,
+				F7DE9F81E05EACA7E723B851 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		996214E5216142E4002E70BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				996214E4216142E4002E70BF /* CashFlowApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		996214E6216142E4002E70BF /* CashFlowApp */ = {
+			isa = PBXGroup;
+			children = (
+				992F00D52162BC00008583F8 /* View */,
+				9948003121622F6100FA97B3 /* Components */,
+				9948002E21622F0900FA97B3 /* Formatters */,
+				996214FA2161441F002E70BF /* AppDelegate */,
+				996214F9216143F4002E70BF /* ViewController */,
+				996214EB216142E4002E70BF /* Main.storyboard */,
+				996214EE216142E4002E70BF /* Assets.xcassets */,
+				996214F0216142E4002E70BF /* LaunchScreen.storyboard */,
+				996214F3216142E4002E70BF /* Info.plist */,
+			);
+			path = CashFlowApp;
+			sourceTree = "<group>";
+		};
+		996214F9216143F4002E70BF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				996214FD2161448D002E70BF /* ContactsViewController.swift */,
+				996214FF216144A6002E70BF /* InvoicesViewController.swift */,
+				99621501216144BF002E70BF /* ExpensesViewController.swift */,
+				9962150921616BB4002E70BF /* PageTotalReceivablesViewController.swift */,
+				9962150B21616C2B002E70BF /* PageCashFlowViewController.swift */,
+				99138B242161B97D0027DB74 /* DashboardPageViewController.swift */,
+				99138B262161C1960027DB74 /* DemoBaseViewController.swift */,
+				9948003621624D5300FA97B3 /* PageIncomeExpenseViewController.swift */,
+				992F00DA2163FE1C008583F8 /* AddExpenseTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		996214FA2161441F002E70BF /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				996214E7216142E4002E70BF /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F7DE9F81E05EACA7E723B851 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10AAB6E37ED4E02F8EB6469B /* Pods_CashFlowApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		996214E3216142E4002E70BF /* CashFlowApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 996214F6216142E4002E70BF /* Build configuration list for PBXNativeTarget "CashFlowApp" */;
+			buildPhases = (
+				1B0A33DF06D86466080F4721 /* [CP] Check Pods Manifest.lock */,
+				996214E0216142E4002E70BF /* Sources */,
+				996214E1216142E4002E70BF /* Frameworks */,
+				996214E2216142E4002E70BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CashFlowApp;
+			productName = CashFlowApp;
+			productReference = 996214E4216142E4002E70BF /* CashFlowApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		996214DC216142E4002E70BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = harun;
+				TargetAttributes = {
+					996214E3216142E4002E70BF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 996214DF216142E4002E70BF /* Build configuration list for PBXProject "CashFlowApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 996214DB216142E4002E70BF;
+			productRefGroup = 996214E5216142E4002E70BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				996214E3216142E4002E70BF /* CashFlowApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		996214E2216142E4002E70BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				996214F2216142E4002E70BF /* LaunchScreen.storyboard in Resources */,
+				992F00F221641600008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.05.58.png in Resources */,
+				996214EF216142E4002E70BF /* Assets.xcassets in Resources */,
+				992F00F521641600008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.05.54.png in Resources */,
+				992F00F621641600008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.06.08.png in Resources */,
+				992F00F321641600008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.06.28.png in Resources */,
+				992F00F121641600008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.06.16.png in Resources */,
+				996214ED216142E4002E70BF /* Main.storyboard in Resources */,
+				992F00F421641600008583F8 /* Simulator Screen Shot - iPhone 8 - 2018-10-03 at 00.05.46.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B0A33DF06D86466080F4721 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CashFlowApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		996214E0216142E4002E70BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992F00DB2163FE1C008583F8 /* AddExpenseTableViewController.swift in Sources */,
+				9948003721624D5300FA97B3 /* PageIncomeExpenseViewController.swift in Sources */,
+				99138B252161B97D0027DB74 /* DashboardPageViewController.swift in Sources */,
+				9962150C21616C2B002E70BF /* PageCashFlowViewController.swift in Sources */,
+				992F00D72162BC11008583F8 /* DesignableView.swift in Sources */,
+				996214E8216142E4002E70BF /* AppDelegate.swift in Sources */,
+				994800352162307300FA97B3 /* BalloonMarker.swift in Sources */,
+				99621500216144A6002E70BF /* InvoicesViewController.swift in Sources */,
+				9948003321622F7800FA97B3 /* XYMarkerView.swift in Sources */,
+				99621502216144BF002E70BF /* ExpensesViewController.swift in Sources */,
+				9948003021622F2500FA97B3 /* DayAxisValueFormatter.swift in Sources */,
+				99138B272161C1960027DB74 /* DemoBaseViewController.swift in Sources */,
+				996214FE2161448D002E70BF /* ContactsViewController.swift in Sources */,
+				9962150A21616BB4002E70BF /* PageTotalReceivablesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		996214EB216142E4002E70BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				996214EC216142E4002E70BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		996214F0216142E4002E70BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				996214F1216142E4002E70BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		996214F4216142E4002E70BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		996214F5216142E4002E70BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		996214F7216142E4002E70BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AFC15CA22B4429641CEBDB9 /* Pods-CashFlowApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5S2E86548V;
+				INFOPLIST_FILE = CashFlowApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CashFlowApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		996214F8216142E4002E70BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32B2B4A50831303AD7147A91 /* Pods-CashFlowApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5S2E86548V;
+				INFOPLIST_FILE = CashFlowApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CashFlowApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		996214DF216142E4002E70BF /* Build configuration list for PBXProject "CashFlowApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				996214F4216142E4002E70BF /* Debug */,
+				996214F5216142E4002E70BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		996214F6216142E4002E70BF /* Build configuration list for PBXNativeTarget "CashFlowApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				996214F7216142E4002E70BF /* Debug */,
+				996214F8216142E4002E70BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 996214DC216142E4002E70BF /* Project object */;
+}
